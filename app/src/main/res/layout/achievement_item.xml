@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="0dp"
+    android:paddingEnd="5dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/achievement_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:contentDescription="@string/achievement_description_text" />
+    <TextView
+        android:id="@+id/achievement_name"
+        android:text="имя"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
